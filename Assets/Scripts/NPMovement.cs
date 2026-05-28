@@ -11,6 +11,8 @@ public class NPMovement : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+
+        Debug.Log(navMeshAgent.isOnNavMesh);
     }
 
     // Update is called once per frame
